@@ -1,5 +1,5 @@
 {
-    "name": "tecnickcom/tcpdf",
+    "name": "gerp-dev/tcpdf",
     "type": "library",
     "description": "TCPDF is a PHP class for generating PDF documents and barcodes.",
     "keywords": [
@@ -12,7 +12,7 @@
         "barcodes"
     ],
     "homepage": "http://www.tcpdf.org/",
-    "version": "6.6.2",
+    "version": "7.0.0-beta",
     "license": "LGPL-3.0-only",
     "authors": [
         {
@@ -22,7 +22,7 @@
         }
     ],
     "require": {
-        "php": ">=5.3.0"
+        "php": "^8.0"
     },
     "autoload": {
         "classmap": [
