@@ -15719,7 +15719,7 @@ class TCPDF {
 		} else {
 			$maxw = $this->w - $this->rMargin - $x;
 		}
-		$maxh = ($this->h - $this->tMargin - $this->bMargin);
+		$maxh = ((float)$this->h - (float)$this->tMargin - (float)$this->bMargin);
 		$ratioHW = ((($rows * $mh) + $hpad) / (($cols * $mw) + $vpad));
 		$ratioWH = ((($cols * $mw) + $vpad) / (($rows * $mh) + $hpad));
 		if (!$distort) {
