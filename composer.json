@@ -12,7 +12,7 @@
         "barcodes"
     ],
     "homepage": "http://www.tcpdf.org/",
-    "version": "7.0.0-beta",
+    "version": "7.0.1-beta",
     "license": "LGPL-3.0-only",
     "authors": [
         {
@@ -22,7 +22,7 @@
         }
     ],
     "require": {
-        "php": "^8.0"
+        "php": ">=7.2.0"
     },
     "autoload": {
         "classmap": [
