@@ -1,5 +1,5 @@
 {
-    "name": "gerp-dev/tcpdf",
+    "name": "opengerp/tcpdf",
     "type": "library",
     "description": "TCPDF is a PHP class for generating PDF documents and barcodes.",
     "keywords": [
